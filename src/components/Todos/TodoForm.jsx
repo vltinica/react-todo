@@ -12,6 +12,7 @@ const TodoForm = ({ addTodo }) => {
     addTodo(text);
     setText("");
   };
+
   return (
     <div className={styles.todoFormContainer}>
       <form onSubmit={onSubmitHandler}>
